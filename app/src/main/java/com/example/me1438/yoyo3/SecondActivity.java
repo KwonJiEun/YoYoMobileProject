@@ -149,7 +149,7 @@ public class SecondActivity extends AppCompatActivity {
 
         insert(view, pa, em);
 
-
+        MainActivity.login_check = 1;
         Intent intent = new Intent(this, ThirdActivity.class);
         startActivity(intent);
     }
