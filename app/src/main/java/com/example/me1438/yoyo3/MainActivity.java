@@ -21,6 +21,8 @@ public class MainActivity extends AppCompatActivity {
         };
         Timer timer = new Timer();
         timer.schedule(timerTask, 3000);
+
+        //test
     }
     public void move_login() {
         Intent intent = new Intent(this, SecondActivity.class);
